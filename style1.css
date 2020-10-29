@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: cornsilk;
+  }
+
+  .left {float:left; 
+    width:auto; 
+    height:100%;
+    background: cornsilk;
+}
+  .right { float:right; 
+    width: auto; 
+    height:100%;
+    background: cornsilk;
+}
+  
