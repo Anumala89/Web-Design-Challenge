@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!--Instruct Internet Explorer to use its latest rendering engine-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--create a title-->
+    <title>Latitude - Wind Speed Analysis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--create the navbar-->
+<nav class="navbar navbar-expand-lg bg-light">
+    <ul class="nav navbar-nav navbar-left">
+        <a class="a" href="index.html">Latitude
+        </a>
+    </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plot
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="temp.html" >Max Temprature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparision.html">Comparison</a>   
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>   
+            </li>
+        </ul>
+    </div>          
+</nav>
+
+<!--display content in two containers-->
+<div class="float-container">
+    <div class="float-child">
+        <h1>Wind Speed</h1>
+        <hr>
+        <br>
+        <br>  
+        <p>
+            <a href="../Images/Fig4.png">
+                <img src="../Images/Fig4.png", class = "first-img w3-image", alt= "Wind Speed vs Latitude">
+            </a>
+            There are four factors that affect the wind speed - temperature, air pressure, centripetal acceleration and Earth's rotation.
+            From the data of wind speed, we see no noticable pattern between wind speed and latitude. Therefore, latitude may not be a factor to consider when it comes to wind speed.
+        </p>
+    </div>
+    <div class="float-child">
+        <h2>Visualizations</h2>
+        <hr>    
+        <br>
+        <br>
+        <a href="temp.html"><!--wrap text around the img and create a link-->
+        <img src="../Images/Fig1.png", class = "second-img w3-image" , alt= "Temp vs Latitude">
+        </a>
+        <a href="humidity.html"><!--wrap text around the img and create a link-->
+        <img src="../Images/Fig2.png", class = "second-img w3-image", alt= "Humidity vs Latitude">
+        </a>
+        <a href="cloudiness.html"><!--wrap text around the img and create a link-->
+        <img src="../Images/Fig3.png", class = "second-img w3-image", alt= "Cloudiness vs Latitude">
+        </a>
+        <a href="wind.html"><!--wrap text around the img and create a link-->
+        <img src="../Images/Fig4.png", class = "second-img w3-image", alt= "Wind vs Latitude">
+        </a>
+    </div>
+</div>
+
+<!--separate scripts solution Popper.js for functionality of Javascript-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>        
+</body>
+</html>
