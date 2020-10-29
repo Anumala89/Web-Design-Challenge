@@ -29,3 +29,5 @@ A "Data" page that:
 Displays a responsive table containing the data used in the visualizations.
 
 The table must be a bootstrap table component. 
+
+Link to the webpage : https://anumala89.github.io/Web-Design-Challenge/
