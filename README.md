@@ -1,4 +1,4 @@
-# Web-Design-Challenge
+# web-visualization-dashboard
 Create a visualization dashboard website using visualizations created in a past assignment.
 
 # Website Requirements
